@@ -1,6 +1,6 @@
+import { useState } from "react";
 
-
-function App() {
+function Todo() {
     const [toDo, setToDo] = useState("");
     //여러개의 toDo를 받을 수 있는 배열 만들기
     const [toDos , setToDos] = useState([]);
@@ -68,3 +68,4 @@ function App() {
       즉 {{item},{item},{item},{item}....} 배열을 만을어 각자고유의key(index)를 가지게함. 
   
   */
+
